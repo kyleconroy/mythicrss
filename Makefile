@@ -8,9 +8,9 @@ venv:
 	virtualenv --python=python3.3 venv
 
 serve: venv
-	venv/bin/python mythicrss/__init__.py
+	venv/bin/python mythicrss.py
 
 
 test:
-	venv/bin/flake8 tests mythicrss
+	venv/bin/flake8 tests mythicrss.py
 	venv/bin/nosetests tests
