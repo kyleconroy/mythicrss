@@ -1,1 +1,1 @@
-web: gunicorn mythricrss:app
+web: gunicorn mythicrss:app
